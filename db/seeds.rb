@@ -30,3 +30,7 @@ It grants custom ability icons and custom ability effects.
 </p>},
 image_url: 'deepmagma.jpg',
 price: 800)
+
+User.delete_all
+
+User.create(name: 'Paul Vincent Virrey', password: 'paulvincent01' )
