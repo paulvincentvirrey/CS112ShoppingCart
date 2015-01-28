@@ -8,7 +8,26 @@
 </head>
 <body class='<%= controller.controller_name %>'>
 
-<%= yield %>
-
+<div id="banner">
+	<%= image_tag("dota2.jpg") %>
+	<%= @page_title || "Dota 2 Shop" %>
+</div>
+<div id="columns">
+	<div id="side">
+		<div id="cart">
+			<%= render @cart %>
+		</div>
+	
+	<ul>
+		<li><a href="http://www....">Home</a></li>
+		<li><a href="http://www..../faq">FAQ</a></li>
+		<li><a href="http://www..../news">News</a></li>
+		<li><a href="http://www..../contact">Contact</a></li>
+	</ul>
+	</div>
+	<div id="main">
+		<%= yield %>
+	</div>
+</div>
 </body>
 </html>

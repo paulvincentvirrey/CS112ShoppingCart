@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+
+ #side {
+  float: left;
+  padding: 1em 2em;
+  width: 13em;
+  background: #141;
+}
+#side form, #side div {
+  display: inline;
+}
+#side input {
+  font-size: small;
+}
+#side #cart {
+  font-size: smaller;
+  color: white;
+}
+#side #cart table {
+  border-top: 1px dotted #595;
+  border-bottom: 1px dotted #595;
+  margin-bottom: 10px;
+}
+#side ul {
+  padding: 0;
+}
+#side ul li {
+  list-style: none;
+}
+#side ul li a {
+  color: #bfb;
+  font-size: small;
+}
+
