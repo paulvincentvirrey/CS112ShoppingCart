@@ -13,6 +13,8 @@ gem 'rails', '4.1.8'
 # end
 gem 'sqlite3' , group: :development
 gem 'pg' , group: :production
+gem 'rails_12factor', group: :production
+
 group :assests do
 	# Use SCSS for stylesheets
 	gem 'sass-rails', '~> 4.0.3'
